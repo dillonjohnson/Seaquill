@@ -1,4 +1,9 @@
 <p id="notice"><%= notice %></p>
+<p>Product Name: <%=@product.productName%></p>
+<p>Price Per Unit: <%=@product.pricePerUnit%></p>
+<p>Stock: <%=@product.stock%></p>
+<p>Image: <%=@product.image%></p>
+<img src="<%= asset_path(@product.image)%>"><br>
 
 <%= link_to 'Edit', edit_product_path(@product) %> |
 <%= link_to 'Back', products_path %>
