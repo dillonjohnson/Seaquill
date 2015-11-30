@@ -1,0 +1,73 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Seaquill | Welcome</title>
+<link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+</head>
+<body>
+ 
+<div class="top-bar">
+<div class="top-bar-left">
+<ul class="menu">
+<li class="menu-text">Seaquill Beer Distribution Co.</li>
+</ul>
+</div>
+<div class="top-bar-right">
+<ul class="menu">
+<li><a href="#">Shopping Cart</a></li>
+<li><%=session[:id]%>Hi, <%=current_customer.name%></li>
+<li><%= link_to "Log out", logout_path, method: :delete %></li>
+</ul>
+</div>
+</div>
+ 
+<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+<ul class="orbit-container">
+<li class="orbit-slide">
+<img src="<%= asset_path( 'seaquill_banner.jpg' ) %>">
+</li>
+</ul>
+</div>
+<div class="row column text-center">
+<h2>Our Products</h2>
+<hr>
+</div>
+<div class="row small-up-2 large-up-4">
+<% @products.each do |product| %>
+<div class="column">
+<img class="thumbnail" src="<%= asset_path( product.image ) %>">
+<h5><%= product.productName %></h5>
+<p>$<%= number_with_precision(product.pricePerUnit, :precision => 2) %></p>
+<p>Stock: <%=product.stock%> </p>
+<a href="#" class="button expanded">Buy</a>
+</div>
+<% end %>
+</div>
+<hr>
+<div class="callout large secondary">
+<div class="row">
+<div class="large-4 columns">
+<h5>Contact Us</h5>
+<p>Email: seaquill@example.com<br>
+Phone: 1-800-SEA-QUILL<br>
+Fax: No thanks.<br>
+Location: 420 Bottle Rd Yeast,USA 84208</p>
+</h4>
+</div>
+<div class="large-3 large-offset-2 columns">
+<ul class="menu vertical">
+</ul>
+</div>
+<div class="large-3 columns">
+<p>Seaquill Beer Distribution Co.</p>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+<script>
+      $(document).foundation();
+    </script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+
+---
+products:
+  columns:
+  - id
+  - productName
+  - pricePerUnit
+  - stock
+  - created_at
+  - updated_at
+  - image
+  records: 
+  - - 5
+    - Stella Artois
+    - 30
+    - 100
+    - '2015-11-28 00:06:48.191982'
+    - '2015-11-28 00:06:48.191982'
+    - stella.jpg
+  - - 6
+    - Bud Light
+    - 25
+    - 100
+    - '2015-11-28 00:06:48.250057'
+    - '2015-11-28 00:06:48.250057'
+    - budlight.jpg
+  - - 8
+    - Blue Moon
+    - 28
+    - 110
+    - '2015-11-28 03:28:01.847864'
+    - '2015-11-30 16:19:54.496461'
+    - bluemoon.jpg
+  - - 9
+    - Budweiser
+    - 25.5
+    - 100
+    - '2015-11-28 03:28:01.883522'
+    - '2015-11-29 04:22:41.031646'
+    - budweiser.jpg
+  - - 10
+    - Creature Comforts Tropicalia
+    - 32
+    - 100
+    - '2015-11-28 03:28:01.895143'
+    - '2015-11-28 03:28:01.895143'
+    - cctropicalia.jpg
+  - - 11
+    - Coors Light
+    - 25
+    - 100
+    - '2015-11-28 03:28:01.906770'
+    - '2015-11-28 03:28:01.906770'
+    - coors.jpg
+  - - 12
+    - Corona Extra
+    - 26.5
+    - 100
+    - '2015-11-28 03:28:01.918475'
+    - '2015-11-28 03:28:01.918475'
+    - corona.jpg
+  - - 13
+    - New Belgium Fat Tire
+    - 28
+    - 100
+    - '2015-11-28 03:28:01.930124'
+    - '2015-11-28 03:28:01.930124'
+    - fattire.jpg
+  - - 14
+    - Heineken
+    - 28
+    - 100
+    - '2015-11-28 03:28:01.943988'
+    - '2015-11-28 03:28:01.943988'
+    - heineken.jpg
+  - - 15
+    - Miller Lite
+    - 25
+    - 100
+    - '2015-11-28 03:28:01.957575'
+    - '2015-11-28 03:28:01.957575'
+    - millerlite.jpeg
+  - - 16
+    - Pabst Blue Ribbon
+    - 25
+    - 100
+    - '2015-11-28 03:28:01.969355'
+    - '2015-11-28 03:28:01.969355'
+    - pbr.jpg
+  - - 17
+    - Red Stripe
+    - 25
+    - 100
+    - '2015-11-28 03:28:01.984058'
+    - '2015-11-28 03:28:01.984058'
+    - redstripe.jpg
+  - - 18
+    - Samuel Adams Boston Lager
+    - 27.8
+    - 100
+    - '2015-11-28 03:28:02.002706'
+    - '2015-11-28 03:28:02.002706'
+    - samadams.jpg
+  - - 19
+    - Sierra Nevada Pale Ale
+    - 31
+    - 100
+    - '2015-11-28 03:28:02.018868'
+    - '2015-11-28 03:28:02.018868'
+    - sierranevada.jpg
+  - - 20
+    - Terrapin Hopsecutioner
+    - 32
+    - 100
+    - '2015-11-28 03:28:02.032589'
+    - '2015-11-28 03:28:02.032589'
+    - terrapinhopsecutioner.jpg
+  - - 21
+    - Terrapin Rye Pale Ale
+    - 32
+    - 100
+    - '2015-11-28 03:28:02.046045'
+    - '2015-11-28 03:28:02.046045'
+    - terrapinrye.jpg
+
+---
+customers:
+  columns:
+  - id
+  - name
+  - companyName
+  - deliveryAddress
+  - email
+  - password_digest
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - derek
+    - seaquill
+    - 321b rooker
+    - derekf@uga.edu
+    - $2a$10$HTRYpE4xocmm8ZLKFXtMDu0au2aZ3X1gDZVAAZVH.u4w/Y8shFG9W
+    - '2015-11-29 21:24:09.555938'
+    - '2015-11-29 21:24:09.555938'
+  - - 4
+    - asd
+    - asd
+    - asd
+    - asd@asd.com
+    - $2a$10$qh2r7AD79bZhhOuIG8e91OcJCO0F8OIJ1L9h2zmiONpbm.2l6e/JK
+    - '2015-11-29 21:55:39.059525'
+    - '2015-11-29 21:55:39.059525'
+  - - 5
+    - jim
+    - jimbos
+    - 123 asdasd asdasd asd
+    - dereere@derp.com
+    - $2a$10$Bca8jycgs1aZX3krCuFaGuOgmcOHsWwTVuMSU4qGu4tE2SKRJvfmi
+    - '2015-11-30 15:51:47.875694'
+    - '2015-11-30 15:51:47.875694'
